@@ -27,7 +27,7 @@ jobs:
         NAME: UnHoly Kernel
       with:
         arch: arm64
-        compiler: clang/15
+        compiler: clang/11
         defconfig: phoenix_defconfig
         image: Image
 

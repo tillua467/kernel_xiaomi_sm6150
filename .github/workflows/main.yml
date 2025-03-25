@@ -27,7 +27,7 @@ jobs:
         NAME: UnHoly Kernel
       with:
         arch: arm64
-        compiler: gcc
+        compiler: aosp-clang/master/clang-r416183b
         defconfig: phoenix_defconfig
         image: Image
 
